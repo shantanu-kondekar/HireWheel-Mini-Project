@@ -43,7 +43,8 @@ public class AdminController {
         VehicleDTO updatedVehicleDTO = modelMapper.map(updatedVehicle, VehicleDTO.class);
 
         return new ResponseEntity(updatedVehicleDTO, HttpStatus.ACCEPTED);
-
     }
+
+
 
 }
